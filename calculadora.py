@@ -25,6 +25,11 @@ def potencia(a: float, b: float) -> float:
     """Calcula a elevado a la b."""
     return a ** b
 
+def cubo(a: float) -> float:
+    """Calcula el cubo de un número (a elevado a la 3)."""
+    return a ** 3
+
+
 if __name__ == "__main__":
     print("Suma:", sumar(8, 12))             # 20
     print("Resta:", restar(15, 6))           # 9
